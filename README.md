@@ -15,11 +15,12 @@ A desktop GUI and CLI toolkit for converting 3D models into Free Realms game ass
 
 ## Quick Start
 
-### GUI (recommended)
+### Download (no Python required)
 
-Double-click **`Launch Asset Converter.bat`** — it installs dependencies and launches the GUI.
+1. Grab `FR_Asset_Converter.exe` from the [latest release](https://github.com/edenfps/fr-adr-toolkit/releases)
+2. Double-click to launch — no install, no dependencies
 
-Or run manually:
+### Run from source (Python)
 
 ```bash
 python -m pip install -r requirements.txt
