@@ -24,6 +24,8 @@ if str(TOOLS_DIR) not in sys.path:
 
 
 def _require_packages() -> None:
+    if getattr(sys, "frozen", False):
+        return
     missing: list[str] = []
     for package in ("numpy", "trimesh"):
         try:
