@@ -114,4 +114,4 @@ The `ASSET_FORMATS.md` file documents the reverse-engineered binary formats used
 
 ## License
 
-MIT
+AGPL-3.0
